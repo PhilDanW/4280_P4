@@ -1,7 +1,7 @@
 #ifndef SEMANTICS_H
 #define SEMANTICS_H
 #include "token.h"
-#include "node.h"
+#include "treeNode.h"
 #include <fstream>
 #include <vector>
 #include <iostream>
