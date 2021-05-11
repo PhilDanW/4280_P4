@@ -77,7 +77,7 @@ int main(int argc, char** argv) {
     else { 
         std::cout << "Beginning to build the Code Generation" << std::endl;
         treeNode* root = parser(); // run parser
-        printTree(root); // print the tree
+        //printTree(root); // print the tree
         //semantic_check(root, 0);      // check parsed tokens semantics
         codeGen(root, 0, out_file_name); // check semantics here now
         inputFile.close(); // close file    
