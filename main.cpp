@@ -19,6 +19,8 @@ std::ofstream file;
 int main(int argc, char** argv) {
     std::string file_name;         // filename
     std::string file_n;
+    
+    static std::string out_file_name;
 
     //no file given so take user input from the keyboard
     if (argc == 1) {
