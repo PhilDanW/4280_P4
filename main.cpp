@@ -25,7 +25,7 @@ int main(int argc, char** argv) {
         //create variables necessary for user input
         std::string input;
         std::ofstream tempFile;                 
-        file = "stdin.temp";
+        file_name = "stdin.temp";
 
         //use trunc to overwrite the file every time the program is run
         tempFile.open(file_name, std::ios::trunc);
@@ -44,7 +44,7 @@ int main(int argc, char** argv) {
         // close file
         tempFile.close();                   
         inputFile.open(file_name);
-        out_file_name = "kb.asm"
+        out_file_name = "kb.asm";
     }
 
     // File given on the command line
