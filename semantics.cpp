@@ -201,6 +201,7 @@ void semantic_check(treeNode* node, int index)
         }
         else if (node->leaf1 != nullptr){
             semantic_check(node->leaf1, index);    
+        }
               
     }
 
